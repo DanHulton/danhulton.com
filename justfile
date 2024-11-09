@@ -1,6 +1,11 @@
 default:
   @just --list --unsorted --justfile {{justfile()}}
 
+dev:
+	@npx @11ty/eleventy --serve --watch
+
+## OLD, MUST ADD ELEVENTY BUILD, NEW SITE FOLDER
+
 dryrun: (publish "--dryrun")
 
 publish $DRYRUN="--output=text":
