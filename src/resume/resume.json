@@ -1,0 +1,167 @@
+{
+  "basics": {
+    "name": "Dan Hulton",
+    "label": "Software Developer",
+    "image": "",
+    "email": "dan@danhulton.com",
+    "url": "https://danhulton.com",
+    "summary": "A full stack software developer and team lead of nearly twenty years.",
+    "location": {
+      "city": "Toronto",
+      "countryCode": "CA",
+      "region": "Ontario"
+    }
+  },
+  "work": [
+    {
+      "name": "Workday",
+      "position": "Sr Software Development Engineer",
+      "url": "https://www.workday.com/",
+      "startDate": "2024-10-28",
+      "highlights": ["Hired as part of Evisort acquisition"]
+    },
+    {
+      "name": "Evisort",
+      "position": "Senior Software Engineer 2",
+      "url": "https://www.evisort.com/",
+      "startDate": "2021-01-18",
+      "endDate": "2024-10-25",
+      "summary": "At Evisort, I quickly developed a reputation for professionalism and quality.  I advocated for and built/improved internal tooling that significantly improved developer QoL and speed of delivery. Before the acquisition by Workday, I had been nominated as a Workstream Lead, in charge of the technical planning and development management of a half-dozen services.",
+      "highlights": [
+        "Wrote the Evisort local development CLI",
+        "Rewrote a struggling Java service to TypeScript in 3 weeks",
+        "Known for advocating for quality and professionalism",
+        "Chosen as Workstream Lead for a half-dozen services",
+        "Joined Workday as part of Evisort acquisition"
+      ]
+    },
+    {
+      "name": "Joist",
+      "position": " Sr. Platform Engineer",
+      "url": "https://www.joist.com/",
+      "startDate": "2019-11-20",
+      "endDate": "2021-01-01",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "Diligen",
+      "position": "Software Engineer",
+      "url": "https://www.diligen.com",
+      "startDate": "2017-12-01",
+      "endDate": "2019-11-09",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "Freshbooks",
+      "position": "Full Stack Engineer",
+      "url": "http://www.freshbooks.com",
+      "startDate": "2015-12-01",
+      "endDate": "2017-12-01",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "Volu.me",
+      "position": "Senior Full‐stack Web Dev",
+      "url": "https://volu.me/",
+      "startDate": "2015-03-01",
+      "endDate": "2015-11-01",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "HitGrab",
+      "position": "Senior Developer/Game Designer",
+      "url": "http://www.hitgrab.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-01-01",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "Panvista",
+      "position": "Senior Developer",
+      "startDate": "2013-04-01",
+      "endDate": "2014-03-01",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "HitGrab",
+      "position": "Senior Developer / Designer",
+      "url": "http://www.hitgrab.com",
+      "startDate": "2011-01-01",
+      "endDate": "2013-03-01",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "Claero Systems",
+      "position": "Senior PHP Developer",
+      "url": "https://claero.com/",
+      "startDate": "2010-01-01",
+      "endDate": "2011-01-01",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "Hill Times Publishing",
+      "position": "Online Services Manager",
+      "url": "https://www.hilltimes.com/",
+      "startDate": "2009-01-01",
+      "endDate": "2010-01-01",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "SiteBrand",
+      "position": "Web Developer",
+      "url": "http://www.sitebrand.com",
+      "startDate": "2007-01-01",
+      "endDate": "2009-01-01",
+      "summary": "",
+      "highlights": [""]
+    }
+  ],
+  "education": [
+    {
+      "institution": "St. Lawrence College",
+      "url": "https://www.stlawrencecollege.ca/",
+      "area": "Computer Programmer Analyst",
+      "studyType": "Diploma",
+      "startDate": "2001-09-01",
+      "endDate": "2004-06-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
+    }
+  ]
+}
