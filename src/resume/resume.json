@@ -15,6 +15,8 @@
   "work": [
     {
       "name": "Workday",
+      "description": "Workday is a suite of leading-edge HR and Finance tools, and a platform designed to elevate humans and supercharge work.  With tens of thousands of employees, offices across the globe, and a spot on the 2024 Fortune 500 list, Workday is a huge enterprise company, successfully serving other huge enterprise companies.",
+      "image": "../images/logo-workday.png",
       "position": "Sr Software Development Engineer",
       "url": "https://www.workday.com/",
       "startDate": "2024-10-28",
@@ -22,6 +24,8 @@
     },
     {
       "name": "Evisort",
+      "description": "",
+      "image": "../images/logo-evisort.png",
       "position": "Senior Software Engineer 2",
       "url": "https://www.evisort.com/",
       "startDate": "2021-01-18",
@@ -37,6 +41,8 @@
     },
     {
       "name": "Joist",
+      "description": "",
+      "image": "../images/logo-joist.png",
       "position": " Sr. Platform Engineer",
       "url": "https://www.joist.com/",
       "startDate": "2019-11-20",
@@ -46,6 +52,8 @@
     },
     {
       "name": "Diligen",
+      "description": "",
+      "image": "../images/logo-diligen.png",
       "position": "Software Engineer",
       "url": "https://www.diligen.com",
       "startDate": "2017-12-01",
@@ -55,6 +63,8 @@
     },
     {
       "name": "Freshbooks",
+      "description": "",
+      "image": "../images/logo-freshbooks.png",
       "position": "Full Stack Engineer",
       "url": "http://www.freshbooks.com",
       "startDate": "2015-12-01",
@@ -64,6 +74,8 @@
     },
     {
       "name": "Volu.me",
+      "description": "",
+      "image": "../images/logo-volume.png",
       "position": "Senior Full‐stack Web Dev",
       "url": "https://volu.me/",
       "startDate": "2015-03-01",
@@ -73,6 +85,8 @@
     },
     {
       "name": "HitGrab",
+      "description": "",
+      "image": "../images/logo-hitgrab.png",
       "position": "Senior Developer/Game Designer",
       "url": "http://www.hitgrab.com",
       "startDate": "2014-04-01",
@@ -82,6 +96,8 @@
     },
     {
       "name": "Panvista",
+      "description": "",
+      "image": "../images/logo-panvista.png",
       "position": "Senior Developer",
       "startDate": "2013-04-01",
       "endDate": "2014-03-01",
@@ -90,6 +106,8 @@
     },
     {
       "name": "HitGrab",
+      "description": "",
+      "image": "../images/logo-hitgrab.png",
       "position": "Senior Developer / Designer",
       "url": "http://www.hitgrab.com",
       "startDate": "2011-01-01",
@@ -99,6 +117,8 @@
     },
     {
       "name": "Claero Systems",
+      "description": "",
+      "image": "../images/logo-claero.png",
       "position": "Senior PHP Developer",
       "url": "https://claero.com/",
       "startDate": "2010-01-01",
@@ -108,6 +128,8 @@
     },
     {
       "name": "Hill Times Publishing",
+      "description": "",
+      "image": "../images/logo-hilltimes.png",
       "position": "Online Services Manager",
       "url": "https://www.hilltimes.com/",
       "startDate": "2009-01-01",
@@ -117,6 +139,8 @@
     },
     {
       "name": "SiteBrand",
+      "description": "",
+      "image": "../images/logo-sitebrand.png",
       "position": "Web Developer",
       "url": "http://www.sitebrand.com",
       "startDate": "2007-01-01",

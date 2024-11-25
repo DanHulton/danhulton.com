@@ -1,0 +1,1221 @@
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>/* Variables */
+
+main#resume {
+  --color-bg-primary: white;
+  --color-bg-secondary: #000;
+  --color-bg-tertiary: rgb(240, 240, 240);
+  --color-primary: black;
+  --color-secondary: grey;
+  --gap-micro: .1em;
+  --gap-tiny: .165em;
+  --gap-small: .25em;
+  --gap-medium: .5em;
+  --gap-large: .75em;
+  --gap-xlarge: 1em;
+
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+  }
+
+  html {
+    background: white;
+  }
+
+  body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    background: white;
+    letter-spacing: .3px;
+    color: #39424B;
+    margin: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-transform: none;
+    margin: 0;
+  }
+
+  h1 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 40pt;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+    letter-spacing: .5px;
+  }
+
+  h3 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14pt;
+    letter-spacing: .4px;
+  }
+
+  h3.bold {
+    font-weight: 700;
+  }
+
+  h4 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+  }
+
+  h4.bold {
+    font-weight: 700;
+  }
+
+  h5 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
+  }
+
+  h5.italic {
+    font-style: italic;
+  }
+
+  h6 {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 10pt;
+    color: gray;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  a:hover {
+    color: #2895F1;
+  }
+
+  a .fa-external-link {
+    font-size: 10pt;
+    vertical-align: text-top;
+  }
+
+  p,
+  li {
+    font-size: 11pt;
+    text-align: justify;
+    margin: 0;
+  }
+
+  blockquote {
+    font-size: 11pt;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+    text-align: justify;
+  }
+
+  em {
+    color: #999;
+  }
+
+  ul {
+    margin: 0 0 0 1em;
+    padding: 0em;
+  }
+
+  ul li {
+    padding-left: var(--gap-small);
+  }
+
+  ul.minimal {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul.minimal li {
+    margin-bottom: 3px;
+    padding-left: 0;
+  }
+
+  i {
+    margin-right: var(--gap-small);
+    color: var(--color-primary);
+  }
+
+  @page {
+    size: A4;
+  }
+
+  /* General */
+
+  section {
+    margin-top: var(--gap-large);
+  }
+
+  .keyline {
+    width: 100%;
+    margin: var(--gap-tiny) 0 var(--gap-medium);
+    border-top: solid var(--color-bg-secondary) var(--gap-micro);
+  }
+
+  .sublink {
+    font-size: 70%;
+    font-weight: 200;
+    color: dimgray;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .capitalize {
+    text-transform: capitalize;
+  }
+
+  .chip {
+    padding: var(--gap-small);
+    background: var(--color-bg-tertiary);
+    border-radius: 5px;
+    color: var(--color-primary);
+  }
+
+  .bullet {
+    width: var(--gap-medium);
+    height: var(--gap-medium);
+    border-radius: 50%;
+    background: var(--color-bg-secondary);
+    align-self: center;
+    justify-self: center;
+  }
+
+  .line {
+    width: var(--gap-micro);
+    height: 100%;
+    background: var(--color-bg-secondary);
+    align-self: center;
+    justify-self: center;
+  }
+
+  /* Common */
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-small);
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--gap-small);
+    padding: 0;
+    margin: 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    column-gap: var(--gap-medium);
+    row-gap: var(--gap-medium);
+    justify-content: start;
+  }
+
+  .top {
+    align-items: first baseline;
+  }
+
+  .fill {
+    flex-grow: 1;
+  }
+
+  .fit {
+    min-width: fit-content;
+  }
+
+  .end {
+    align-items: flex-end;
+  }
+
+  .centre {
+    justify-content: center;
+  }
+
+  .align-center {
+    align-items: center;
+    text-align: start;
+  }
+
+  .narrow {
+    margin-top: var(--gap-small);
+  }
+
+  .wide {
+    gap: var(--gap-large);
+  }
+
+  .between {
+    justify-content: space-between;
+  }
+
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .large {
+    font-size: 12pt;
+  }
+
+  .inherit-height {
+    min-height: inherit;
+  }
+
+  /* FIX: rows within columns don't span the full width */
+
+  .column .row {
+    width: 100%;
+  }
+
+  /* Section Overrides */
+
+  .profiles + section {
+    margin-top: 0;
+  }
+
+  /* FIX: First section within a section needs no margin */
+
+  section > section:first-of-type {
+    margin-top: 0;
+  }
+
+  .company + .position {
+    margin-top: var(--gap-large);
+  }
+
+  .position {
+    margin-top: var(--gap-medium);
+    margin-left: var(--gap-medium);
+  }
+
+  .position > .grid {
+    row-gap: 0;
+  }
+
+  .position ul {
+    margin: var(--gap-medium) 0 0 0;
+    width: 100%
+  }
+
+  .position li {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+
+  /* Header Section */
+
+  .avatar {
+    align-self: center;
+    margin-right: var(--gap-medium);
+  }
+
+  /* Company Section */
+
+  .company {
+    min-height: 4em;
+  }
+
+  .logo {
+    max-width: 8em;
+    max-height: 4em
+  }
+
+  /* Position Section */
+
+  .space {
+    margin-top: var(--gap-medium);
+    padding: 0;
+  }
+
+  /* Reference Section */
+
+  .left {
+    align-self: flex-start;
+  }
+
+  .right {
+    align-self: flex-end;
+  }
+
+  /* Layouts */
+
+  .page {
+    background: var(--color-bg-primary);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  /* Adjustments for Printing */
+  @media print {
+    body {
+      margin: 0;
+    }
+
+    .page {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      box-shadow: none;
+      border: none;
+    }
+
+    section :not(.work) {
+      page-break-inside: avoid;
+    }
+
+    .no-print {
+      display: none;
+    }
+
+    .fa-external-link {
+      display: none;
+    }
+  }
+}
+</style>
+</head>
+
+<main id="resume" class="page">
+  <header class="row">
+  
+      <div class="column fill">
+          <h1>Dan Hulton</h1>
+          <h2>Software Developer</h2>
+      </div>
+  
+      <div class="column end">
+              <div class="row align-center">
+                  <h6 class="large">
+                      <i class="fa fa-envelope-o"></i>
+              
+                          <a href="mailto:dan@danhulton.com" target="_blank">
+                              dan@danhulton.com
+                          </a>
+                  </h6>
+              </div>
+  
+  
+              <div class="row align-center">
+                  <h6 class="large">
+                      <i class="fa fa-globe"></i>
+              
+                          <a href="https://danhulton.com" target="_blank">
+                              danhulton.com
+                          </a>
+                  </h6>
+              </div>
+  
+              <div class="row align-center">
+                  <h6 class="large">
+                      <i class="fa fa-map-marker"></i>
+              
+                           Toronto Ontario  CA
+                  </h6>
+              </div>
+      </div>
+  </header>
+      <section class="about">
+          <div class="column">
+              <h2 class="uppercase">
+                      <i class="fa fa-user" aria-hidden="true"></i>
+                  About
+              </h2>
+              <div class="keyline"></div>
+          </div>            <div class="column">
+                  <p class="summary">A full stack software developer and team lead of nearly twenty years.</p>
+              </div>
+      </section>
+      <section class="skills">
+          <div class="column">
+              <h2 class="uppercase">
+                      <i class="fa fa-wrench" aria-hidden="true"></i>
+                  Skills
+              </h2>
+              <div class="keyline"></div>
+          </div>        <div class="grid">
+                  <div class="column end skills">
+                          <h4 class="bold capitalize">Web Development</h4>
+                          <h4 class="capitalize">Master</h4>
+                  </div>
+                      <div class="row wrap minimal">
+                              <h6 class="chip">HTML</h6>
+                              <h6 class="chip">CSS</h6>
+                              <h6 class="chip">JavaScript</h6>
+                      </div>
+          </div>
+      </section>
+  <section class="work">
+      <div class="column">
+          <h2 class="uppercase">
+                  <i class="fa fa-building" aria-hidden="true"></i>
+              Work Experience
+          </h2>
+          <div class="keyline"></div>
+      </div>        <section class="company">
+            <div class="row wide">
+                <div class="column fill between inherit-height">
+                        <h3 class="bold">
+                                <a href="https://www.workday.com/" target="_blank">Workday</a>
+                        </h3>
+          
+                </div>
+                <div class="column end fit">
+                        <h6>
+                            <i class="fa fa-calendar"></i>
+                            <span>Oct 2024</span>
+                            <span> - Present</span>
+                        </h6>
+          
+                </div>
+            </div>
+            <div class="row wide align-center">
+              <div class="column fill between inherit-height">
+                    <h6>Workday is a suite of leading-edge HR and Finance tools, and a platform designed to elevate humans and supercharge work.  With tens of thousands of employees, offices across the globe, and a spot on the 2024 Fortune 500 list, Workday is a huge enterprise company, successfully serving other huge enterprise companies.</h6>
+              </div>
+          
+              <div class="column end fit">
+                  <img class="logo" src=../images/logo-workday.png />
+              </div>
+            </div>
+          </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold">Sr Software Development Engineer</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Oct 2024</span>
+                            <span> - Present</span>
+                        </h6>
+                    </div>
+              
+              
+                    <ul>
+                        <li>Hired as part of Evisort acquisition</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+          <section class="company">
+            <div class="row wide">
+                <div class="column fill between inherit-height">
+                        <h3 class="bold">
+                                <a href="https://www.evisort.com/" target="_blank">Evisort</a>
+                        </h3>
+          
+                </div>
+                <div class="column end fit">
+                        <h6>
+                            <i class="fa fa-calendar"></i>
+                            <span>Jan 2021</span>
+                            <span> - Oct 2024</span>
+                        </h6>
+          
+                </div>
+            </div>
+            <div class="row wide align-center">
+              <div class="column fill between inherit-height">
+              </div>
+          
+              <div class="column end fit">
+                  <img class="logo" src=../images/logo-evisort.png />
+              </div>
+            </div>
+          </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold">Senior Software Engineer 2</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Jan 2021</span>
+                            <span> - Oct 2024</span>
+                        </h6>
+                    </div>
+              
+                        <p>At Evisort, I quickly developed a reputation for professionalism and quality.  I advocated for and built/improved internal tooling that significantly improved developer QoL and speed of delivery. Before the acquisition by Workday, I had been nominated as a Workstream Lead, in charge of the technical planning and development management of a half-dozen services.</p>
+              
+                    <ul>
+                        <li>Wrote the Evisort local development CLI</li>
+                        <li>Rewrote a struggling Java service to TypeScript in 3 weeks</li>
+                        <li>Known for advocating for quality and professionalism</li>
+                        <li>Chosen as Workstream Lead for a half-dozen services</li>
+                        <li>Joined Workday as part of Evisort acquisition</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+          <section class="company">
+            <div class="row wide">
+                <div class="column fill between inherit-height">
+                        <h3 class="bold">
+                                <a href="https://www.joist.com/" target="_blank">Joist</a>
+                        </h3>
+          
+                </div>
+                <div class="column end fit">
+                        <h6>
+                            <i class="fa fa-calendar"></i>
+                            <span>Nov 2019</span>
+                            <span> - Jan 2021</span>
+                        </h6>
+          
+                </div>
+            </div>
+            <div class="row wide align-center">
+              <div class="column fill between inherit-height">
+              </div>
+          
+              <div class="column end fit">
+                  <img class="logo" src=../images/logo-joist.png />
+              </div>
+            </div>
+          </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold"> Sr. Platform Engineer</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Nov 2019</span>
+                            <span> - Jan 2021</span>
+                        </h6>
+                    </div>
+              
+              
+                    <ul>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+          <section class="company">
+            <div class="row wide">
+                <div class="column fill between inherit-height">
+                        <h3 class="bold">
+                                <a href="https://www.diligen.com" target="_blank">Diligen</a>
+                        </h3>
+          
+                </div>
+                <div class="column end fit">
+                        <h6>
+                            <i class="fa fa-calendar"></i>
+                            <span>Dec 2017</span>
+                            <span> - Nov 2019</span>
+                        </h6>
+          
+                </div>
+            </div>
+            <div class="row wide align-center">
+              <div class="column fill between inherit-height">
+              </div>
+          
+              <div class="column end fit">
+                  <img class="logo" src=../images/logo-diligen.png />
+              </div>
+            </div>
+          </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold">Software Engineer</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Dec 2017</span>
+                            <span> - Nov 2019</span>
+                        </h6>
+                    </div>
+              
+              
+                    <ul>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+          <section class="company">
+            <div class="row wide">
+                <div class="column fill between inherit-height">
+                        <h3 class="bold">
+                                <a href="http://www.freshbooks.com" target="_blank">Freshbooks</a>
+                        </h3>
+          
+                </div>
+                <div class="column end fit">
+                        <h6>
+                            <i class="fa fa-calendar"></i>
+                            <span>Dec 2015</span>
+                            <span> - Dec 2017</span>
+                        </h6>
+          
+                </div>
+            </div>
+            <div class="row wide align-center">
+              <div class="column fill between inherit-height">
+              </div>
+          
+              <div class="column end fit">
+                  <img class="logo" src=../images/logo-freshbooks.png />
+              </div>
+            </div>
+          </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold">Full Stack Engineer</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Dec 2015</span>
+                            <span> - Dec 2017</span>
+                        </h6>
+                    </div>
+              
+              
+                    <ul>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+          <section class="company">
+            <div class="row wide">
+                <div class="column fill between inherit-height">
+                        <h3 class="bold">
+                                <a href="https://volu.me/" target="_blank">Volu.me</a>
+                        </h3>
+          
+                </div>
+                <div class="column end fit">
+                        <h6>
+                            <i class="fa fa-calendar"></i>
+                            <span>Mar 2015</span>
+                            <span> - Nov 2015</span>
+                        </h6>
+          
+                </div>
+            </div>
+            <div class="row wide align-center">
+              <div class="column fill between inherit-height">
+              </div>
+          
+              <div class="column end fit">
+                  <img class="logo" src=../images/logo-volume.png />
+              </div>
+            </div>
+          </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold">Senior Full‐stack Web Dev</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Mar 2015</span>
+                            <span> - Nov 2015</span>
+                        </h6>
+                    </div>
+              
+              
+                    <ul>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+          <section class="company">
+            <div class="row wide">
+                <div class="column fill between inherit-height">
+                        <h3 class="bold">
+                                <a href="http://www.hitgrab.com" target="_blank">HitGrab</a>
+                        </h3>
+          
+                </div>
+                <div class="column end fit">
+                        <h6>
+                            <i class="fa fa-calendar"></i>
+                            <span>Jan 2011</span>
+                            <span> - Jan 2015</span>
+                        </h6>
+          
+                </div>
+            </div>
+            <div class="row wide align-center">
+              <div class="column fill between inherit-height">
+              </div>
+          
+              <div class="column end fit">
+                  <img class="logo" src=../images/logo-hitgrab.png />
+              </div>
+            </div>
+          </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold">Senior Developer/Game Designer</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Apr 2014</span>
+                            <span> - Jan 2015</span>
+                        </h6>
+                    </div>
+              
+              
+                    <ul>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold">Senior Developer / Designer</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Jan 2011</span>
+                            <span> - Mar 2013</span>
+                        </h6>
+                    </div>
+              
+              
+                    <ul>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+          <section class="company">
+            <div class="row wide">
+                <div class="column fill between inherit-height">
+                        <h3 class="bold">
+                                Panvista
+                        </h3>
+          
+                </div>
+                <div class="column end fit">
+                        <h6>
+                            <i class="fa fa-calendar"></i>
+                            <span>Apr 2013</span>
+                            <span> - Mar 2014</span>
+                        </h6>
+          
+                </div>
+            </div>
+            <div class="row wide align-center">
+              <div class="column fill between inherit-height">
+              </div>
+          
+              <div class="column end fit">
+                  <img class="logo" src=../images/logo-panvista.png />
+              </div>
+            </div>
+          </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold">Senior Developer</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Apr 2013</span>
+                            <span> - Mar 2014</span>
+                        </h6>
+                    </div>
+              
+              
+                    <ul>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+          <section class="company">
+            <div class="row wide">
+                <div class="column fill between inherit-height">
+                        <h3 class="bold">
+                                <a href="https://claero.com/" target="_blank">Claero Systems</a>
+                        </h3>
+          
+                </div>
+                <div class="column end fit">
+                        <h6>
+                            <i class="fa fa-calendar"></i>
+                            <span>Jan 2010</span>
+                            <span> - Jan 2011</span>
+                        </h6>
+          
+                </div>
+            </div>
+            <div class="row wide align-center">
+              <div class="column fill between inherit-height">
+              </div>
+          
+              <div class="column end fit">
+                  <img class="logo" src=../images/logo-claero.png />
+              </div>
+            </div>
+          </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold">Senior PHP Developer</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Jan 2010</span>
+                            <span> - Jan 2011</span>
+                        </h6>
+                    </div>
+              
+              
+                    <ul>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+          <section class="company">
+            <div class="row wide">
+                <div class="column fill between inherit-height">
+                        <h3 class="bold">
+                                <a href="https://www.hilltimes.com/" target="_blank">Hill Times Publishing</a>
+                        </h3>
+          
+                </div>
+                <div class="column end fit">
+                        <h6>
+                            <i class="fa fa-calendar"></i>
+                            <span>Jan 2009</span>
+                            <span> - Jan 2010</span>
+                        </h6>
+          
+                </div>
+            </div>
+            <div class="row wide align-center">
+              <div class="column fill between inherit-height">
+              </div>
+          
+              <div class="column end fit">
+                  <img class="logo" src=../images/logo-hilltimes.png />
+              </div>
+            </div>
+          </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold">Online Services Manager</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Jan 2009</span>
+                            <span> - Jan 2010</span>
+                        </h6>
+                    </div>
+              
+              
+                    <ul>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+          <section class="company">
+            <div class="row wide">
+                <div class="column fill between inherit-height">
+                        <h3 class="bold">
+                                <a href="http://www.sitebrand.com" target="_blank">SiteBrand</a>
+                        </h3>
+          
+                </div>
+                <div class="column end fit">
+                        <h6>
+                            <i class="fa fa-calendar"></i>
+                            <span>Jan 2007</span>
+                            <span> - Jan 2009</span>
+                        </h6>
+          
+                </div>
+            </div>
+            <div class="row wide align-center">
+              <div class="column fill between inherit-height">
+              </div>
+          
+              <div class="column end fit">
+                  <img class="logo" src=../images/logo-sitebrand.png />
+              </div>
+            </div>
+          </section>
+              
+              <section class="position">
+                <div class="grid">
+                  <div class="bullet"></div>
+                  <h3 class="bold">Web Developer</h3>
+              
+                  <div class="line"></div>
+                  <div class="column">
+                    <div class="row end">
+                        <h6 class="space">
+                          <i class="fa fa-calendar"></i>
+                          <span>Jan 2007</span>
+                            <span> - Jan 2009</span>
+                        </h6>
+                    </div>
+              
+              
+                    <ul>
+                        <li></li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+  </section>
+  
+  <section class="projects">
+      <div class="column">
+          <h2 class="uppercase">
+                  <i class="fa fa-code" aria-hidden="true"></i>
+              Projects
+          </h2>
+          <div class="keyline"></div>
+      </div>
+          <section class="project">
+              <div class="grid">
+                  <div class="line"></div>
+                  <div class="column">
+                      <div class="row wide inherit-height">
+  
+                          <div class="column fill between inherit-height">
+                                  <h3 class="bold">
+                                          <a href="https://project.com/" target="_blank">Project</a>
+                                  </h3>
+  
+                          </div>
+  
+                          <div class="column end fit">
+                                  <h6>
+                                      <i class="fa fa-calendar"></i>
+                                      <span>Jan 2019</span>
+                                      <span> - Jan 2021</span>
+                                  </h6>
+  
+                          </div>
+                      </div>
+  
+                          <p>Description...</p>
+  
+                      <ul>
+                          <li>Won award at AIHacks 2016</li>
+                      </ul>
+                  </div>
+              </div>
+          </section>
+  </section>
+  <section class="education">
+      <div class="column">
+          <h2 class="uppercase">
+                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+              Education
+          </h2>
+          <div class="keyline"></div>
+      </div>
+          <section class="institution">
+              <div class="column">
+                  <div class="row stretch">
+                      <div class="column fill">
+                              <h3 class="bold">
+                                      <a href="https://www.stlawrencecollege.ca/" target="_blank">St. Lawrence College</a>
+                              </h3>
+  
+                          <h4>
+                              Diploma
+                               Computer Programmer Analyst
+                              
+                          </h4>
+                      </div>
+  
+                      <div class="column end">
+                              <h6>
+                                  <i class="fa fa-calendar"></i>
+                                  <span class="startDate">Sep 2001</span>
+                                  <span class="endDate"> - Jun 2004</span>
+                              </h6>
+  
+  
+                      </div>
+                  </div>
+                  
+              </div>
+          </section>
+  </section>
+  <section class="references">
+      <div class="column">
+          <h2 class="uppercase">
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+              References
+          </h2>
+          <div class="keyline"></div>
+      </div>
+          <p>References are available on request</p>
+  </section>
+  <section class="meta">
+      <div class="column">
+          <h2 class="uppercase">
+                  <i class="fa fa-asterisk" aria-hidden="true"></i>
+              Meta
+          </h2>
+          <div class="keyline"></div>
+      </div>    <div class="grid">
+  
+              <div class="column end">
+                  <h4 class="bold capitalize">Languages</h4>
+              </div>
+              <div class="row wrap minimal">
+                      <h6 class="chip">
+                          English
+                              (Native speaker)
+                      </h6>
+              </div>
+  
+              <div class="column end">
+                  <h4 class="bold capitalize">Interests</h4>
+              </div>
+              <div class="row wrap minimal">
+                      <h6 class="chip">Wildlife</h6>
+              </div>
+      </div>
+  </section>
+</main>

@@ -11,6 +11,12 @@
   "type": "module",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
-    "prettier": "^3.3.3"
+    "handlebars": "^4.7.8",
+    "handlebars-wax": "^6.1.0",
+    "jsonresume-theme-americano-black-web": "file:./src/_includes/jsonresume-theme-americano-black-web",
+    "jsonresume-theme-americano-black-pdf": "file:./src/_includes/jsonresume-theme-americano-black-pdf",
+    "moment": "^2.30.1",
+    "prettier": "^3.3.3",
+    "resumed": "^4.0.0"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "name": "jsonresume-theme-americano-black",
+  "version": "1.0.8",
+  "description": "Simple theme for JSON Resume based on the macchiato theme, and modified again!.",
+  "author": "NuclearRedeye - Modified by Dan Hulton",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "address-format": "^0.0.3",
+    "handlebars": "^4.7.6",
+    "handlebars-wax": "^6.1.0",
+    "moment": "^2.24.0"
+  }
+}

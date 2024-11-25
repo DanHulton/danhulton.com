@@ -1,0 +1,19 @@
+{{#resume.basics}}
+{{#if profiles}}
+    <section class="profiles">
+        <div class="row centre wide no-print">
+            {{#each profiles}}
+                {{#if network}}
+                    {{#if username}}
+                        {{#if (eq (lowercase network) "linkedin")}}
+                            {{> info-tag text=(concat '' this.username) icon="fa-linkedin-square" }}
+                        {{else}}
+                            {{> info-tag text=this.username icon=(concat "fa-" (lowercase network)) }}
+                        {{/if}}
+                    {{/if}}
+                {{/if}}
+            {{/each}}
+        </div>
+    </section>
+{{/if}}
+{{/resume.basics}}

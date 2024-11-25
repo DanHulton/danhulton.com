@@ -148,7 +148,11 @@ links:
     <section id="resume">
       <div class="container">
         <h3>Resumé</h3>
-        <p>Soon (tm).</p>
+        {% include "./resume/index.html" %}
+        <script>
+          const frame = document.getElementById("iframe-resume");
+          frame.onload = () => { frame.style.height = (frame.contentWindow.document.body.scrollHeight + 20) + 'px'; }
+        </script>
       </div>
     </section>
   </div>

@@ -1,0 +1,25 @@
+<section class="references">
+    {{> section-heading icon="quote-left" value="References"}}
+
+    {{#if resume.references.length}}
+        <div class="grid">
+        {{#each resume.references}}
+            <div class="column">
+                <div class="line"></div>
+            </div>
+            <div class="column fill">
+                {{#if reference}}
+                    <p>
+                        {{reference}}
+                    <p> 
+                {{/if}}
+                {{#if name}}
+                    <h6>{{name}}</h6>
+                {{/if}}
+            </div>
+        {{/each}}
+        </div>
+    {{else}}
+        <p>References are available on request</p>
+    {{/if}}
+</section>

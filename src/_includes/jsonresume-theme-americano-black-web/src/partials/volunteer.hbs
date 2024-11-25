@@ -1,0 +1,12 @@
+{{#if resume.volunteer.length}}
+<section class="volunteer">
+    {{> section-heading icon="gift" value="Volunteer Experience"}}
+    {{#each resume.volunteer}}
+        {{> organization }}
+        {{#each this.positions}}
+            {{> position}}
+        {{/each}}
+    {{/each}}
+</section>
+{{/if}}
+
