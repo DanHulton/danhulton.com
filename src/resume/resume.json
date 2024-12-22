@@ -96,13 +96,17 @@
     },
     {
       "name": "Panvista",
-      "description": "",
-      "image": "../images/logo-panvista.png",
+      "description": "Panvista Mobile was an early entrant in the custom mobile app creation space, aiming to make having and maintaining your own mobile app be as easy as having and maintaining a WordPress site.  It also invested heavily into the at-the-time new beacon technology, enabling Panvista app customers to set RFID beacons around their events or spaces to trigger location-based promotions or track customer flow to better optimize their experiences.  Panvista is defunct these days, and the domain has been taken over by a shady keyword squatter.",
+      "image": "../images/logo-panvista.jpg",
       "position": "Senior Developer",
       "startDate": "2013-04-01",
       "endDate": "2014-03-01",
-      "summary": "",
-      "highlights": [""]
+      "summary": "My primary role of responsibility was improving the app management system, improving customer experience by adding additional methods of app customization and design.  My biggest accomplishement was a large refactor of the application to support a theming system, allowing users to change the entire design of the app with a couple of clicks, as opposed to the manual per-page selections that were required before.",
+      "highlights": [
+        "Refactored the application UI/design system",
+        "Significant part of the in-app beacon management system",
+        "Brought a high level of care and professionalism to a codebase that was in need of refactoring"
+      ]
     },
     {
       "name": "HitGrab",
@@ -142,7 +146,7 @@
       "description": "",
       "image": "../images/logo-sitebrand.png",
       "position": "Web Developer",
-      "url": "http://www.sitebrand.com",
+      "url": "https://en.wikipedia.org/wiki/Sitebrand",
       "startDate": "2007-01-01",
       "endDate": "2009-01-01",
       "summary": "",

@@ -142,8 +142,9 @@ h5.italic {
 h6 {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 11px;
   color: gray;
+  text-align: justify;
 }
 
 a {
@@ -165,6 +166,7 @@ li {
   font-size: 11px;
   text-align: justify;
   margin: 0;
+  line-height: 1.5em;
 }
 
 blockquote {
@@ -211,7 +213,7 @@ i {
 /* General */
 
 section {
-  margin-top: var(--gap-large);
+  margin-top: calc(var(--gap-large) * 2);
 }
 
 .keyline {
@@ -312,7 +314,7 @@ section {
 }
 
 .wide {
-  gap: var(--gap-large);
+  gap: calc(var(--gap-large) * 2);
 }
 
 .between {

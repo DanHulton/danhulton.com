@@ -140,8 +140,9 @@ main#resume {
   h6 {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    font-size: 10pt;
+    font-size: 11pt;
     color: gray;
+    text-align: justify;
   }
 
   a {
@@ -163,6 +164,7 @@ main#resume {
     font-size: 11pt;
     text-align: justify;
     margin: 0;
+    line-height: 1.5em;
   }
 
   blockquote {
@@ -209,7 +211,7 @@ main#resume {
   /* General */
 
   section {
-    margin-top: var(--gap-large);
+    margin-top: calc(var(--gap-large) * 2);
   }
 
   .keyline {
@@ -316,7 +318,7 @@ main#resume {
   }
 
   .wide {
-    gap: var(--gap-large);
+    gap: calc(var(--gap-large) * 2);
   }
 
   .between {
