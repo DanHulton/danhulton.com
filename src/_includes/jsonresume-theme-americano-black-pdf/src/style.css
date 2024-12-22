@@ -377,6 +377,7 @@ section > section:first-of-type {
   background-color: #fff;
   border: 1px solid #ddd;
   width: 100%;
+  line-height: 1.4em;
 }
 
 /* Header Section */

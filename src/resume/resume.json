@@ -20,17 +20,21 @@
       "position": "Sr Software Development Engineer",
       "url": "https://www.workday.com/",
       "startDate": "2024-10-28",
-      "highlights": ["Hired as part of Evisort acquisition"]
+      "highlights": [
+        "Hired as part of Evisort acquisition",
+        "Continued growth in Python and Typescript as we integrated Evisort services with greater Workday ecosystem",
+        "Lead the team that built the Evisort-Workday SSO/Auth integration"
+      ]
     },
     {
       "name": "Evisort",
-      "description": "",
+      "description": "Evisort is an AI-based contract intelligence and document management system for lawyers and other legal folks.  Created back before 'AI' just meant 'LLMs', Evisort had an in-house team of data scientists and machine-learning specialists that positioned them to lead the AI revolution and resulted in them getting acquired by Workday, a real recognition of their leadership.",
       "image": "../images/logo-evisort.png",
       "position": "Senior Software Engineer 2",
       "url": "https://www.evisort.com/",
       "startDate": "2021-01-18",
       "endDate": "2024-10-25",
-      "summary": "At Evisort, I quickly developed a reputation for professionalism and quality.  I advocated for and built/improved internal tooling that significantly improved developer QoL and speed of delivery. Before the acquisition by Workday, I had been nominated as a Workstream Lead, in charge of the technical planning and development management of a half-dozen services.",
+      "summary": "At Evisort, I quickly developed a reputation for professionalism and quality.  I advocated for, built, and improved internal tooling that significantly improved developer QoL and speed of delivery. Before the acquisition by Workday, I had been nominated as a Workstream Lead, in charge of the technical planning and development management of a half-dozen services.",
       "highlights": [
         "Wrote the Evisort local development CLI",
         "Rewrote a struggling Java service to TypeScript in 3 weeks",
@@ -41,14 +45,18 @@
     },
     {
       "name": "Joist",
-      "description": "",
+      "description": "Joist is a web and mobile app for contractors to help run their business.  It covers the entire project lifecycle, from estimation to payment, in one app, and significantly simplifies the process of running your own contracting business.",
       "image": "../images/logo-joist.png",
       "position": " Sr. Platform Engineer",
       "url": "https://www.joist.com/",
       "startDate": "2019-11-20",
       "endDate": "2021-01-01",
-      "summary": "",
-      "highlights": [""]
+      "summary": "While my title was Sr. Platform Engineer, it could also have been Sr. Problem Solver.  From physical infrastructure to software infrastructure, I was the go-to guy for getting things fixed.",
+      "highlights": [
+        "Resolved long-standing wifi connectivity issue affective office as one of my first tasks, and improved physical office security",
+        "Overhauled Jenkins scheduler service and improved test times significantly, vastly decreasing deploy times",
+        "Initiated work-from-home preparedness program in advance of Covid-19 lockdowns being implemented"
+      ]
     },
     {
       "name": "Diligen",
